@@ -1,0 +1,25 @@
+#Login{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    
+}
+form{
+    border-radius: 10px;
+    box-shadow: 15px 15px 40px 8px gray inset;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    place-items: center;
+    background-color: silver;
+    height: auto;
+    width: auto;
+    font-size: large;
+    font-weight: bold;
+    padding: 2rem;
+
+}
+::placeholder{
+    color: #951e8d;
+    font-weight: bold   ;
+}

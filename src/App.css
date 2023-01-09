@@ -1,0 +1,172 @@
+
+*{
+  margin: 0%;
+  padding: 0;
+}
+
+
+#Navbar{
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid silver;
+  border-radius: 8px;
+  box-shadow: 2px 4px 5px;
+  background-color: silver;
+  
+}
+#navchild2{
+  align-items: center;
+  display: flex;
+  color: rgb(163, 6, 32);
+  text-shadow: 3px 1px 4px;
+}
+
+#navchild3 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+#navchild3 ul{
+  display: flex;
+  text-align: center;
+}
+#navchild3 ul li{
+ margin: 0 5px;
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: center; */
+  list-style: none;
+ 
+}
+
+.button{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center  ;
+  margin:auto ; 
+  border:  1px solid silver;
+  padding: 12px;
+  
+}
+.btn{
+  padding: 10px;
+  border:  3px solid silver;
+  background-color: silver;
+  
+  font-size: large;
+  font-weight: bold;
+}
+.btn:hover{
+  box-shadow: 3px 3px 5px 3px gray inset;
+  border-radius: 8px  ;
+  color:rgb(163, 6, 32) ;
+  background-color: silver;
+}
+
+#navchild3 ul li  :hover{
+  
+  border-radius: 8px;
+  color: white  ;
+  background-color: gray;
+}
+#navchild-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#navchild-3 ul li{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+#navchild-3 ul li  :hover{
+  
+  border-radius: 8px;
+  color: white  ;
+  background-color: gray;
+}
+.form{
+  
+  display: flex;
+  justify-content: center;
+}
+
+
+
+@media (max-width:290px) {
+  #Navbar{
+ display: flex;
+
+  }
+ 
+  .icon2{
+    width: 50%;
+    height: 15%;
+  }
+  #navchild3 ul li{
+    width: 25%;
+    height: 15%;
+    
+  }
+  .button{
+    font-size: 10px;
+  }
+
+  
+
+  
+}
+@media (max-width:600px) {
+ 
+  #navchild3 ul{
+    display: none ;
+    }
+  #navchild-3{
+    display: none;
+  }
+  
+}
+
+li button{
+  border-radius: 15px;
+  padding: 9px;
+  margin:auto;  
+ 
+}
+
+
+#menuicon{
+  display: none;
+}
+@media (max-width:600px) {
+  #menuicon{
+      display: block;
+  }
+  .Btn{
+    background: silver ;
+    padding: 12px 0;
+    text-decoration: none;
+   
+  }
+
+
+
+}
+@media (min-width:768px) {
+  #btn1{
+    display: none ;
+
+  }
+  #btn2{
+    display: none ;
+
+  }
+ 
+
+}

@@ -1,0 +1,53 @@
+
+#BrowserRouter{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+}
+#BRchild{
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    background:silver;     
+}
+.Link{
+    margin: auto;
+    background-color: rgb(170, 167, 167);
+    text-decoration: none;
+    border: solid rgba(245, 245, 245, 0.861) 3px;
+    color: #951e8d;
+    font-weight:bold;
+    font-size: large;
+    border-radius: 10px;
+    padding: 5px;
+    /* margin-right: 25px; */
+    
+}
+.Link:hover{
+    box-shadow: 3px 3px 5px 3px gray inset;
+    background-color: silver;
+    color: rgb(163, 6, 32)  ;
+}
+
+@media (max-width:768px) {
+    .Link{    
+        margin-top: auto;   
+        padding: 4px;
+        display: flex;
+        font-weight: lighter;
+        
+    }
+    #BRchild{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* background: none; */
+        height: fit-content;
+        padding: 12px;
+        
+
+    }
+  
+    
+}

@@ -1,0 +1,10 @@
+#Contact{
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    padding: 5rem;
+}
+#icons{
+    margin-left: 5rem;
+}
